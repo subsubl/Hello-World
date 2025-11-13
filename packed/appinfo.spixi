@@ -1,13 +1,6 @@
 caVersion = 0
-id = com.yourname.helloworld
+id = com.yourname.walkie.spixi
 publisher = YourName
-name = HelloWorldApp
+name = WalkieTalkie
 version = 1.0.0
-capabilities = singleUser
-image = helloworldapp.png
-minUsers = 
-maxUsers = 
-protocols = 
-contentUrl = helloworldapp.zip
-checksum = e4b6cbecdf7bc083b7e434147ea757b373a84174f456011c80edf9a8ba6a2c6a
-contentSize = 1350
+capabilities = multiUser

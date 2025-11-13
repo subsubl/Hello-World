@@ -1,0 +1,12 @@
+
+/* basic styles adapted from original */
+.led-green { background-color: #22c55e; box-shadow: 0 0 0.75rem 0.1875rem #22c55e80; }
+.led-amber { background-color: #f59e0b; box-shadow: 0 0 0.75rem 0.1875rem #f59e0b80; }
+.led-blue { background-color: #0ea5e9; box-shadow: 0 0 0.75rem 0.1875rem #0ea5e980; }
+.led-off { background-color: #52525b; box-shadow: inset 0 0 0.0625rem rgba(0,0,0,0.7); }
+
+.vu-meter { width: 4.5rem; height: 2.25rem; background: conic-gradient(from 135deg at 50% 100%, #166534 0%, #22c55e 15%, #facc15 50%, #ef4444 85%, #b91c1c 100%); border-top-left-radius: 2.25rem; border-top-right-radius: 2.25rem; position: relative; border: 2px solid #52525b; border-bottom-width: 0; overflow: hidden; }
+.vu-meter::before { content:''; position:absolute; z-index:1; background:#3f3f46; bottom:0.1rem; left:0.5rem; right:0.5rem; top:0.4rem; border-top-left-radius:2rem; border-top-right-radius:2rem; }
+.vu-meter-needle { position:absolute; bottom:-0.1rem; left:50%; margin-left:-1px; width:2px; height:2.2rem; background-color:#fca5a5; transform-origin:bottom center; transition:transform 75ms linear; border-radius:2px 2px 0 0; z-index:3; box-shadow:0 0 8px #ef4444; }
+
+canvas#whiteboard { touch-action: none; display:block; width:100%; height:400px; border-radius:4px; background: transparent; }
