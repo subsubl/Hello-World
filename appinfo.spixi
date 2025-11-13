@@ -1,0 +1,6 @@
+caVersion = 0
+id = com.yourname.helloworld
+publisher = YourName
+name = HelloWorldApp
+version = 1.0.0
+capabilities = singleUser
